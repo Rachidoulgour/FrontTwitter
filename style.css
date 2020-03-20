@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  width: 100vw; 
+}
+ 
+main{
+    max-width: 100%;
+    display: flex;
+    
+}
+.right-side{
+    width: 50vw;
+    background-color: #71c9f8;
+    background-image: url(./img/Logo-Twitter.png);
+    height: 85vh;
+}
+.description{
+    display: flex;
+    flex-direction: column;    
+    font-size: 1.5rem;
+    margin: 20vh 10vw;
+    
+}
+.description-frase{
+    color: white;
+    display: flex;
+    margin: 2rem 0;
+}
+.description-frase p{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+/*
+main section .left-side{
+    width: 50%;
+    background-color: blue;
+}*/
+.left-side{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 50vw;
+}
+.login-register{
+    padding: 18vh 12vw;
+}
+.left-side img{
+    width: 3rem;
+    margin-bottom: 1rem;
+} 
+.left-side h1{
+    font-size: 2rem;
+}
+.left-side p{
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+}
+/* .buttons button{
+    all: unset;
+} */
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.register{
+    all: unset;
+    text-decoration: none;
+    background-color: #1da1f2;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: .3rem 0;
+    padding: .5rem 0;
+    border: solid 1px #1da1f2;
+    border-radius: 1rem;
+}
+.register:hover{
+    background-color: #178ad1;
+    transition: ease .3s;
+}
+.login{
+    all: unset;
+    border: solid 1px #1da1f2;
+    color: #1da1f2;
+    font-weight: bold;
+    text-align: center;
+    margin: .3rem 0;
+    padding: .5rem 0;
+    border-radius: 1rem;
+}
+.login:hover{
+    background-color: #c5ebff;
+}
+footer{
+    margin-top: .8rem;
+}
+.links{
+    text-align: center;
+    text-decoration: none;
+}
+.links a{
+    text-decoration: none;
+    margin: .1rem;
+    color: #7e77a5;
+}
+.copyrights{
+    text-align: center;
+    margin-top: 1rem;
+}
