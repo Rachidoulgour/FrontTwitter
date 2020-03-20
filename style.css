@@ -12,6 +12,25 @@ main{
     display: flex;
     
 }
+@media (max-width: 700px){
+    main{
+        flex-direction: column-reverse;
+    }
+    main .right-side{
+        width: 100vw;
+        height: 50vh;
+    }
+    main .left-side{
+        width: 100vw;
+        height: 70vh;
+    }
+    .right-side .description{
+        margin: 5vh 10vw;
+    }
+    .right-side .description-frase{
+        margin: 1.5rem 0;
+    }
+}
 .right-side{
     width: 50vw;
     background-color: #71c9f8;
@@ -106,9 +125,10 @@ footer{
 .links a{
     text-decoration: none;
     margin: .1rem;
-    color: #7e77a5;
+    color: #657786;
 }
 .copyrights{
     text-align: center;
     margin-top: 1rem;
+    color: #657786;
 }
